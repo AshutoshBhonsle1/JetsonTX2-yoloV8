@@ -3,6 +3,8 @@ Run:\
 sudo nvpmodel -m 0 && sudo jetson_clocks\
 \
 Files:\
+convertPTtoONNX.py lets you convert your trained .pt model to .onnx format.\
+Run in Colab.\
 \
 infer.py allows you to test your model by giving it a single image.\
 Terminal command to run infer.py:\
